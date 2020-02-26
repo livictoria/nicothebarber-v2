@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "67b0e7b03c818220b4948cd1ad9b131d",
+    "revision": "1ca1bb0aaa1310f236325281fb922250",
     "url": "/nicothebarber-v2/index.html"
   },
   {
-    "revision": "1b5e9d08be22f94879f2",
+    "revision": "9d2eeb6e97669826e358",
     "url": "/nicothebarber-v2/static/css/2.5bc4965f.chunk.css"
   },
   {
-    "revision": "a4508cbf4ae3c9007efe",
+    "revision": "89e2ac937f0e4f143e05",
     "url": "/nicothebarber-v2/static/css/main.5ecd60fb.chunk.css"
   },
   {
-    "revision": "1b5e9d08be22f94879f2",
-    "url": "/nicothebarber-v2/static/js/2.e4e64ec3.chunk.js"
+    "revision": "9d2eeb6e97669826e358",
+    "url": "/nicothebarber-v2/static/js/2.218377bd.chunk.js"
   },
   {
-    "revision": "bfc08a62983de46a4daec9f8c3c657d8",
-    "url": "/nicothebarber-v2/static/js/2.e4e64ec3.chunk.js.LICENSE.txt"
+    "revision": "ff470f15f20efad4419b730894456a5f",
+    "url": "/nicothebarber-v2/static/js/2.218377bd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a4508cbf4ae3c9007efe",
-    "url": "/nicothebarber-v2/static/js/main.f6797e84.chunk.js"
+    "revision": "89e2ac937f0e4f143e05",
+    "url": "/nicothebarber-v2/static/js/main.de166a6a.chunk.js"
   },
   {
     "revision": "0b8754cd91236b2cf123",
