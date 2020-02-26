@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, Icon, Layout } from "antd";
+import { useMediaQuery } from "react-responsive";
 
 import barber from "./assets/barber.jpg";
 import logo from "./assets/nico.svg";
@@ -18,10 +19,14 @@ const PHONE_LINK = "tel:647-924-6984";
 const ADDRESS_LINK = "https://maps.google.com/maps?q=222+Albert+St,+Waterloo,+ON+N2L3T6";
 
 const {  Content, Footer } = Layout;
-const Styles ={
+
+const Styles = {
 	layout: {
 		color: "white",
 		height: "100vh",
+		fontFamily: "Arimo !important",
+		letterSpacing: "3px !important",
+		minHeight: "600px",
 		padding: 0,
 		textAlign: "center",
 	},
@@ -44,36 +49,43 @@ const Styles ={
 		background: "black",
 		color: "white",
 		display: "relative",
-		fontWeight: "bold", 
+		fontWeight: 500, 
 		marginRight: "10px",
 	},
 	content__instagram_button: {
-		background:"rgb(202, 174, 126)",
+		background: "rgb(181, 156, 113)",
 		color: "white",
-		fontWeight: "bold",
+		fontWeight: 500, 
 		marginTop: "5px",
 	},
 	footer: {
 		background: "black",
 		color: "white", 
+		paddingBottom: "0px",
 	},
 	footer__contact_container: {
 		fontSize: "14px", 
 	},
 	footer__link:{
 		color: "white",
+		fontWeight: 500, 
 	},
 	footer__copyright: {
+		color: "rgba(255, 246, 230, 0.6)",
 		fontSize: "10px",
 	}
 };
 
 function App() {
+	const isMobile = useMediaQuery({ maxWidth: 565 });
+	const dimension = isMobile ? 150 : 200;
+	const renderDivider = isMobile ? "" : "|";
+
 	return (
 		<Layout style={Styles.layout}>
 			<Content style={Styles.content}>
 				<div style={Styles.content__container}>
-					<img alt="Nico the Barber logo" src={logo} width={200} height={200} />
+					<img alt="Nico the Barber logo" src={logo} width={dimension} height={dimension} />
 					<div style={Styles.content__button_container}>
 						<Button
 							id="Setmore_button_iframe"
@@ -82,7 +94,6 @@ function App() {
 							style={Styles.content__book_button}>
                 Book Appointment
 						</Button>
-						{/* <br/> */}
 						<Button
 							style={Styles.content__instagram_button}
 							href={INSTAGRAM_LINK}
@@ -94,7 +105,7 @@ function App() {
 			</Content>
 			<Footer style={Styles.footer}>
 				<div style={Styles.footer__contact_container}>
-					<Button type="link" style={Styles.footer__link} href={EMAIL_LINK} target="_top">{EMAIL}</Button>|<Button type="link" style={Styles.footer__link} href={PHONE_LINK}> {NUMBER} </Button>|<Button type="link" style={Styles.footer__link} href={ADDRESS_LINK} target="_blank"> {ADDRESS} </Button>
+					<Button type="link" style={Styles.footer__link} href={EMAIL_LINK} target="_top">{EMAIL}</Button>{renderDivider}<Button type="link" style={Styles.footer__link} href={PHONE_LINK}> {NUMBER} </Button>{renderDivider}<Button type="link" style={Styles.footer__link} href={ADDRESS_LINK} target="_blank"> {ADDRESS} </Button>
 				</div>
 				<br/>
 				<p style={Styles.footer__copyright}>Nico the Barber © 2020</p>
