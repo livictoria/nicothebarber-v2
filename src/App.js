@@ -1,14 +1,16 @@
 import React from "react";
-import logo from "./assets/Nico.svg";
-import barber from "./assets/barber.jpg";
 import { Button, Icon, Layout } from "antd";
+
+import barber from "./assets/barber.jpg";
+import logo from "./assets/nico.svg";
+
 import "antd/dist/antd.css";
 
 const BOOK_BUTTON_LiNK = "https://my.setmore.com/bookingpage/97b6432a-0bcb-4d8b-bfaf-6c7d07d8a0a4";
 const INSTAGRAM_LINK = "https://instagram.com/cervantesnico";
 
 const EMAIL = "nicocerv@hotmail.com";
-const NUMBER = "647-924-698";
+const NUMBER = "647-924-6984";
 const ADDRESS = "222 Albert Street";
 
 const EMAIL_LINK = `mailto:${EMAIL}?Subject==Barber%20Inquiry`;
