@@ -105,7 +105,7 @@ function App() {
 			</Content>
 			<Footer style={Styles.footer}>
 				<div style={Styles.footer__contact_container}>
-					<Button type="link" style={Styles.footer__link} href={EMAIL_LINK} target="_top">{EMAIL}</Button>{renderDivider}<Button type="link" style={Styles.footer__link} href={PHONE_LINK}> {NUMBER} </Button>{renderDivider}<Button type="link" style={Styles.footer__link} href={ADDRESS_LINK} target="_blank"> {ADDRESS} </Button>
+					<Button type="link" style={Styles.footer__link} href={EMAIL_LINK} target="_parent">{EMAIL}</Button>{renderDivider}<Button type="link" style={Styles.footer__link} href={PHONE_LINK} target="_parent"> {NUMBER} </Button>{renderDivider}<Button type="link" style={Styles.footer__link} href={ADDRESS_LINK} target="_blank"> {ADDRESS} </Button>
 				</div>
 				<br/>
 				<p style={Styles.footer__copyright}>Nico the Barber © 2020</p>
