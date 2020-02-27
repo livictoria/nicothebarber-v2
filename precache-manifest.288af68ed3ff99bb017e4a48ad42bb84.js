@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1ca1bb0aaa1310f236325281fb922250",
+    "revision": "8e16259b7e12c7202cebf9bc346a3c9b",
     "url": "/nicothebarber-v2/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nicothebarber-v2/static/css/2.5bc4965f.chunk.css"
   },
   {
-    "revision": "89e2ac937f0e4f143e05",
+    "revision": "d7243844a4506ca1fc2d",
     "url": "/nicothebarber-v2/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nicothebarber-v2/static/js/2.218377bd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "89e2ac937f0e4f143e05",
-    "url": "/nicothebarber-v2/static/js/main.de166a6a.chunk.js"
+    "revision": "d7243844a4506ca1fc2d",
+    "url": "/nicothebarber-v2/static/js/main.4a65607c.chunk.js"
   },
   {
     "revision": "0b8754cd91236b2cf123",
