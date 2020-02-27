@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/nicothebarber-v2/precache-manifest.288af68ed3ff99bb017e4a48ad42bb84.js"
+  "/nicothebarber-v2/precache-manifest.a984534af12076189a1347f4a8c59c20.js"
 );
 
 self.addEventListener('message', (event) => {
