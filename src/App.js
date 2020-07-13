@@ -10,9 +10,9 @@ import "antd/dist/antd.css";
 const BOOK_BUTTON_LiNK = "https://my.setmore.com/bookingpage/97b6432a-0bcb-4d8b-bfaf-6c7d07d8a0a4";
 const INSTAGRAM_LINK = "https://instagram.com/cervantesnico";
 
-const EMAIL = "nicocerv@hotmail.com";
+const EMAIL = "nico.cerv@hotmail.com";
 const NUMBER = "647-924-6984";
-const ADDRESS = "222 Albert Street";
+const ADDRESS = "Fincham Park";
 
 const EMAIL_LINK = `mailto:${EMAIL}?Subject==Barber%20Inquiry`;
 const PHONE_LINK = "tel:647-924-6984";
